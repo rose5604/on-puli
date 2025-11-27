@@ -30,8 +30,8 @@ jobs:
       RUNTIME_HOURS: '5.5'
       REUSE_WALLETS: 'true'
       
-      BATCH_SIZE: '100'
-      PAUSE_SECONDS: '60'
+      BATCH_SIZE: '200'
+      PAUSE_SECONDS: '10'
       PROXY_PORT: '14441'
       
       # Total runners (for display only)
