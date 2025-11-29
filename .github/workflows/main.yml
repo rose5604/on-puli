@@ -241,7 +241,7 @@ jobs:
           VLLM_RPS_PER_KEY=0
           PROXY_MIN_TPS=15
           REQUEST_TIMEOUT_MS=60000
-          MAX_TOKENS_PER_REQUEST=0
+          MAX_TOKENS_PER_REQUEST=100
           NODE_ENV=production
           EOF
           
