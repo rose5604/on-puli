@@ -1,8 +1,8 @@
-name: 🚀 225    8 pagi
+name: 🚀 225    12 siang
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 5 * * *'
 
 permissions:
   contents: write
@@ -693,5 +693,6 @@ jobs:
           fi
           
           echo "✅ Summary complete"
+
 
 
