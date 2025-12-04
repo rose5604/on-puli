@@ -1,8 +1,8 @@
 name: 🚀 225    12 siang
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 5 * * *'
+  #schedule:
+    #- cron: '0 5 * * *'
 
 permissions:
   contents: write
@@ -24,8 +24,8 @@ jobs:
       # ============================================
       # 🔧 CONFIGURATION (EDIT HERE)
       # ============================================
-      WALLET_COUNT: '225'
-      CONTAINERS_PER_WALLET: '3'
+      WALLET_COUNT: '350'
+      CONTAINERS_PER_WALLET: '2'
       RUNTIME_HOURS: '5.5'
       REUSE_WALLETS: 'true'
       
@@ -693,6 +693,7 @@ jobs:
           fi
           
           echo "✅ Summary complete"
+
 
 
 
