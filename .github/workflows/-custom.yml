@@ -1,4 +1,4 @@
-name: 🚀 225    12 siang
+name: 🚀 679
 on:
   workflow_dispatch:
   #schedule:
@@ -25,7 +25,7 @@ jobs:
       # 🔧 CONFIGURATION (EDIT HERE)
       # ============================================
       WALLET_COUNT: '350'
-      CONTAINERS_PER_WALLET: '2'
+      CONTAINERS_PER_WALLET: '1'
       RUNTIME_HOURS: '5.5'
       REUSE_WALLETS: 'true'
       
@@ -693,6 +693,7 @@ jobs:
           fi
           
           echo "✅ Summary complete"
+
 
 
 
