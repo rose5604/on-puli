@@ -1,4 +1,4 @@
-name: 🚀 225  x  3  private (with Monitor x All Key)
+name: 🚀 325  x  2  private (with Monitor x All Key)
 
 on:
   workflow_dispatch:
@@ -25,7 +25,7 @@ jobs:
       # ============================================
       # 🔧 CONFIGURATION (EDIT HERE)
       # ============================================
-      WALLET_COUNT: '350'
+      WALLET_COUNT: '325'
       CONTAINERS_PER_WALLET: '2'
       RUNTIME_HOURS: '5.5'
       REUSE_WALLETS: 'true'
