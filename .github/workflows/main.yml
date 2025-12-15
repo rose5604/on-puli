@@ -231,7 +231,7 @@ jobs:
           echo "⚙️  Runner-${{ matrix.runner }}: Creating .env file for vLLM server..."
           
           cat > .env << EOF
-          VLLM_BASE_URL=${{ secrets.VLLM_BASE_URL || 'http://208.76.40.194:9060' }}
+          VLLM_BASE_URL=${{ secrets.VLLM_BASE_URL || 'http://159.195.86.24:9060' }}
           VLLM_API_KEY=${{ steps.load_keys.outputs.vllm_api_key }}
           MODEL_MAP={"llama3.3:70b-instruct-q4_K_M":"llama3.3:70b-instruct-q4_K_M","gemma3:27b":"llama3.3:70b-instruct-q4_K_M"}
           PORT=$PROXY_PORT
