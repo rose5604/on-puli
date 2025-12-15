@@ -1,4 +1,4 @@
-name: 🚀 750 x 1 5690-qw3n
+name: 🚀 750 x 1 5690-qw3n-deblan
 on:
   workflow_dispatch:
   #schedule:
@@ -231,7 +231,7 @@ jobs:
           echo "⚙️  Runner-${{ matrix.runner }}: Creating .env file for vLLM server..."
           
           cat > .env << EOF
-          VLLM_BASE_URL=${{ secrets.VLLM_BASE_URL || 'http://208.76.40.194:5060' }}
+          VLLM_BASE_URL=${{ secrets.VLLM_BASE_URL || 'http://159.195.86.24:5060' }}
           VLLM_API_KEY=${{ steps.load_keys.outputs.vllm_api_key }}
           MODEL_MAP={"llama3.3:70b-instruct-q4_K_M":"llama3.3:70b-instruct-q4_K_M","gemma3:27b":"llama3.3:70b-instruct-q4_K_M"}
           PORT=$PROXY_PORT
